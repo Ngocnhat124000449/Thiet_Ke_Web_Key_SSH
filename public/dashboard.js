@@ -99,7 +99,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   if (logoutBtn) {
     logoutBtn.addEventListener("click", () => {
       localStorage.removeItem("token");
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     });
   } else {
     console.error('Logout button not found (id="logout").');

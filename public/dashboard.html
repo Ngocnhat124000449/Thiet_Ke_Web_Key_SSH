@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard</title>
+
+  <!-- CSS external -->
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+
+<body>
+  <div class="dashboard-container">
+    <h2>Thông tin người dùng</h2>
+
+    <div class="user-info">
+      <p><strong>Tên đăng nhập:</strong> <span id="username"></span></p>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Họ tên:</strong> <span id="fullName"></span></p>
+      <p><strong>Ngày tạo:</strong> <span id="createdAt"></span></p>
+
+      <div class="avatar-section">
+        <img id="avatar" src="" alt="Avatar" />
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="logout">Đăng xuất</button>
+      <p id="message" class="message"></p>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

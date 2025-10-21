@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-container {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.2s;
+  }
+  
+  input:focus {
+    border-color: #0078ff;
+    outline: none;
+  }
+  
+  button {
+    background-color: #0078ff;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #005fd1;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-size: 14px;
+    min-height: 20px;
+  }
+  
+  .link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .link a {
+    color: #0078ff;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
